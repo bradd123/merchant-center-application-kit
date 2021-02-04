@@ -40,6 +40,7 @@ const paths = {
   appBuild: resolveApp('dist/assets'),
   appWebpackConfig: resolveApp('webpack.config.prod.js'),
   distPath: resolveApp('dist'),
+  // TODO: support `.tsx` entry point.
   entryPoint: resolveApp('src/index.js'),
   sourceFolders: [resolveApp('src')],
 };

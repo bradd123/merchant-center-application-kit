@@ -43,6 +43,7 @@ const paths = {
   appWebpackConfig: resolveApp('webpack.config.dev.js'),
   yarnLockFile: resolveApp('yarn.lock'),
   distPath: resolveApp('dist'),
+  // TODO: support `.tsx` entry point.
   entryPoint: resolveApp('src/index.js'),
   sourceFolders: [resolveApp('src')],
 };
